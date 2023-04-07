@@ -96,7 +96,7 @@ async def mar(call:types.callback_query):
     await bot.send_media_group(call.message.chat.id, media=media)
 
 
-@dp.callback_query_handler(text= 'l2_1')
+@dp.callback_query_handler(text= 'l2_1_2')
 async def l1(call:types.callback_query):
     await call.message.delete()
     media = MediaGroup()

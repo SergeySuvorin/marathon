@@ -9,7 +9,13 @@ fkb.add(fkb_butt_1,fkb_butt_2,fkb_butt_3,)
 
 marathon_kb_1 = InlineKeyboardMarkup(row_width=1)
 marathon_kb_1.add(InlineKeyboardButton(text='Начинаем!',callback_data='l1'))
+# marathon_kb_1.add(InlineKeyboardButton(text='Начинаем!',callback_data='feed'))
 
+glab = InlineKeyboardMarkup(row_width=1)
+glab.add(InlineKeyboardButton(text='Главное меню', callback_data='glav'),InlineKeyboardButton(text='Получить доступ к боту',url = 'https://www.tinkoff.ru/rm/koroleva.yuliya75/NVhqq89449'))
+
+paym = InlineKeyboardMarkup(row_width=1)
+paym.add(InlineKeyboardButton(text='Получить доступ к боту',url = 'https://www.tinkoff.ru/rm/koroleva.yuliya75/NVhqq89449'),InlineKeyboardButton(text='Отправить скриншот',url = 'https://t.me/psyhologspbg'),InlineKeyboardButton(text='Я оплатил!',callback_data='l2_1') )
 
 marathon_kb_2 = InlineKeyboardMarkup(row_width=1)
 marathon_kb_2.add(InlineKeyboardButton(text='Я готов!',callback_data='l2'),InlineKeyboardButton(text='Главное меню', callback_data='glav'))
@@ -71,8 +77,12 @@ day_6_2.add(InlineKeyboardButton(text='Идем дальше!',callback_data='da
 day_6_3 = InlineKeyboardMarkup(row_width=1)
 day_6_3.add(InlineKeyboardButton(text='Играть',url = 'http://www.newcode.ru/soft/alphabet.html'),InlineKeyboardButton(text='Прошел игру!',callback_data='day_6_3') ,InlineKeyboardButton(text='Главное меню', callback_data='glav'))
 
+day_6_3_1   = InlineKeyboardMarkup(row_width=1)
+day_6_3_1.add(InlineKeyboardButton(text='Идем дальше!',callback_data='day_6_3_1'),InlineKeyboardButton(text='Главное меню', callback_data='glav'))
+
+
 day_6_4 = InlineKeyboardMarkup(row_width=1)
-day_6_4.add(InlineKeyboardButton(text='Последняя практика!',callback_data='day_6_4'),InlineKeyboardButton(text='Мне нужна помощь', url = 'https://t.me/psyhologspbg'),InlineKeyboardButton(text='Главное меню', callback_data='glav'))
+day_6_4.add(InlineKeyboardButton(text='Сохранил! Идем дальше!',callback_data='day_6_4'),InlineKeyboardButton(text='Мне нужна помощь', url = 'https://t.me/psyhologspbg'),InlineKeyboardButton(text='Главное меню', callback_data='glav'))
 
 day_7 = InlineKeyboardMarkup(row_width=1)
 day_7.add(InlineKeyboardButton(text='Создать!',callback_data='day_7'),InlineKeyboardButton(text='Главное меню', callback_data='glav'))
@@ -85,4 +95,8 @@ day_7_2 = InlineKeyboardMarkup(row_width=1)
 day_7_2.add(InlineKeyboardButton(text='Идем дальше!',callback_data='day_7_2'),InlineKeyboardButton(text='Главное меню', callback_data='glav'))
 
 day_7_3 = InlineKeyboardMarkup(row_width=1)
-day_7_3.add(InlineKeyboardButton(text='Оставить отзыв😀', url = 'https://t.me/psyhologspbg'),InlineKeyboardButton(text='Хочу проработать с психологом', url = 'https://t.me/psyhologspbg'),InlineKeyboardButton(text='Запись на группу', url = 'https://psyhologspbg.ru/link?fbclid=PAAaamyd89ZneBtxWydtXa-TIYBEeIGaCzjpp6dG4hPg2jpc7yVOQoJjTrTzk'),InlineKeyboardButton(text='Главное меню', callback_data='glav'))
+day_7_3.add(InlineKeyboardButton(text='Оставить отзыв😀', callback_data='feed'),InlineKeyboardButton(text='Хочу проработать с психологом', url = 'https://t.me/psyhologspbg'),InlineKeyboardButton(text='Запись на группу', url = 'https://psyhologspbg.ru/link?fbclid=PAAaamyd89ZneBtxWydtXa-TIYBEeIGaCzjpp6dG4hPg2jpc7yVOQoJjTrTzk'),InlineKeyboardButton(text='Главное меню', callback_data='glav'))
+
+
+day_8 = InlineKeyboardMarkup(row_width=1)
+day_8.add(InlineKeyboardButton(text='Хочу проработать с психологом', url = 'https://t.me/psyhologspbg'),InlineKeyboardButton(text='Запись на группу', url = 'https://psyhologspbg.ru/link?fbclid=PAAaamyd89ZneBtxWydtXa-TIYBEeIGaCzjpp6dG4hPg2jpc7yVOQoJjTrTzk'),InlineKeyboardButton(text='Главное меню', callback_data='glav'))

@@ -183,7 +183,7 @@ async def l1(call:types.callback_query):
 
 @dp.callback_query_handler(text= 'day_6_3_1')
 async def l1(call:types.callback_query):
-    await call.message.edit_text('<b>Книга Хижина, даю почитать)</b>',reply_markup = day_6_4)
+    await call.message.edit_text('Рекомендую вам также прочитать книгу Уильяма Пола Янга «Хижина». В ней вы найдете поддержку и возможно посмотрите на ситуации из вашей жизни с другой стороны',reply_markup = day_6_4)
     media = MediaGroup()
     media.attach(InputMediaDocument(open('Yang_Hizhina.fb2', 'rb')))
     await bot.send_media_group(call.message.chat.id, media=media)

@@ -26,7 +26,7 @@ marathon_kb_3.add(InlineKeyboardButton(text='Разбор моего маршр�
 
 
 marathon_kb_4= InlineKeyboardMarkup(row_width=1)
-marathon_kb_4.add(InlineKeyboardButton(text='Следующая практика!',callback_data='l2_1'), InlineKeyboardButton(text='Личная консультацию по рисунку',url = 'https://t.me/psyhologspbg'),InlineKeyboardButton(text='Главное меню', callback_data='glav'))
+marathon_kb_4.add(InlineKeyboardButton(text='Следующая практика!',callback_data='l2_1_1'), InlineKeyboardButton(text='Личная консультацию по рисунку',url = 'https://t.me/psyhologspbg'),InlineKeyboardButton(text='Главное меню', callback_data='glav'))
 
 
 quest_kb = InlineKeyboardMarkup(row_width=1)

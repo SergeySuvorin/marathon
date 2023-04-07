@@ -18,7 +18,7 @@ paym = InlineKeyboardMarkup(row_width=1)
 paym.add(InlineKeyboardButton(text='Получить доступ к боту',url = 'https://www.tinkoff.ru/rm/koroleva.yuliya75/NVhqq89449'),InlineKeyboardButton(text='Отправить скриншот',url = 'https://t.me/psyhologspbg'),InlineKeyboardButton(text='Я оплатил!',callback_data='l2_1') )
 
 marathon_kb_2 = InlineKeyboardMarkup(row_width=1)
-marathon_kb_2.add(InlineKeyboardButton(text='Я готов!',callback_data='l2'),InlineKeyboardButton(text='Главное меню', callback_data='glav'))
+marathon_kb_2.add(InlineKeyboardButton(text='Я готов!',callback_data='new_e'),InlineKeyboardButton(text='Главное меню', callback_data='glav'))
 
 
 marathon_kb_3 = InlineKeyboardMarkup(row_width=1)
